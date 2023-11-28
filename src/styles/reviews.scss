@@ -1,0 +1,57 @@
+.reviews-cont{
+    width: 1100px;
+    position: relative;
+    margin-bottom: 30px;
+    .revieww-btn{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        background-color:dodgerblue;
+        border: none;
+        box-shadow: 1px 1px 1px black;
+        color: white;
+        font-weight: 400;
+        padding: 15px;
+        border-radius: 5px;
+        font-weight: 500;
+
+    }
+    .title{
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .rating{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-bottom: 20px;
+    }
+    .review-item-cont{
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid black;
+       
+        .name-from{
+            font-weight: 600;
+            font-size: large;
+            flex: 1;
+            .from{
+                color: gray;
+            }
+        }
+        .comment{
+            flex: 3;
+            p{
+                font-weight: 500;
+                margin-top: 20px;
+                width: 600px;
+            }
+        }
+        .date{
+            flex: 1;
+            font-weight: 600;
+            font-size: large;
+
+        }
+    }
+}
